@@ -1,7 +1,6 @@
 table,
 th,
-td,
-tr {
+td {
     border: solid black 1px;
     border-radius: 5px;
 }
@@ -9,5 +8,18 @@ tr {
 th,
 td {
     background-color: aqua;
-    color: orange;
+}
+
+table {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+th:hover, td:hover {
+    background-color: black;
+    color: aqua;
+}
+
+table:hover, th:hover, td:hover{
+    border-color: red;
 }
